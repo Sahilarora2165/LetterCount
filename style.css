@@ -1,0 +1,56 @@
+*{
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    background-color: rgb(180, 147, 190);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: cursive;
+}
+
+
+.container{
+    background: white;
+    height: 300px;
+    width: 500px;
+    padding: 10px;
+    border-radius: 12px;
+    box-shadow: 9px 10px 15px rgba(0, 0, 0, 0.5);
+    margin: 10px;
+}
+
+.textarea{
+    height: 100px;
+    width: 480px;
+    border-radius: 10px;
+    resize: none;
+    outline: none;
+    font-size: 18px;
+    font-family: cursive;
+    padding: 8px;
+    border: 2px solid grey;
+}
+
+
+.counter{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 5px;
+}
+
+.counter p{
+    font-size: 18px;
+    color: darkgray;
+}
+
+.total{
+    color: rgb(53, 5, 200);
+}
+
+.remaining{
+    color: rgb(224, 41, 41);
+}
